@@ -1,0 +1,9 @@
+#container{
+    width: 50vw;
+}
+.cardDiv{
+    display: grid;
+    align-items: flex-start;
+    gap: 1rem;
+    grid-template-columns: repeat(auto,minmax(300px,1fr));
+}
